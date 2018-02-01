@@ -4,7 +4,8 @@
   "description": "Base icons SVG Symbol",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp svgstore"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,6 @@
     "url": "https://github.com/alexandesigner/baseicons/issues"
   },
   "homepage": "https://github.com/alexandesigner/baseicons#readme",
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp svgstore"
-  },
   "devDependencies": {
     "connect-history-api-fallback": "^1.1.0",
     "gulp": "^3.8.11",
@@ -28,7 +25,7 @@
     "gulp-connect": "^2.2.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-sass": "^1.3.3",
+    "gulp-sass": "^3.1.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
     "gulp-useref": "^3.0.5",
