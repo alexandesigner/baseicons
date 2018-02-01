@@ -1,0 +1,107 @@
+/*
+* alexandesigner - Base Icons v0.2.0
+*/
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #f8f8fc;
+  font-family: sans-serif;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.baseicons-iconset {
+  width: 960px;
+  display: table;
+  margin: 0 auto;
+}
+
+.baseicons-iconset header {
+  padding: 40px 0;
+}
+
+.baseicons-iconset header small {
+  width: 100%;
+  display: table;
+  text-align: center;
+  font-size: 20px;
+  color: #999;
+  margin-top: 20px;
+}
+
+.baseicons-iconset .logo {
+  display: table;
+  margin: 0 auto;
+}
+
+.baseicons-iconset .content {
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+.baseicons-iconset .content .icon {
+  fill: #000;
+}
+
+.baseicons-iconset .content li {
+  background: #fff;
+  display: inline-block;
+  width: 12%;
+  padding: 10px 0 0 0;
+  margin: 0.9%;
+  border-radius: 3px;
+  box-shadow: 0 0 10px -4px #000;
+}
+
+.baseicons-iconset .content li:hover {
+  box-shadow: 0 0 6px -2px #000;
+}
+
+.baseicons-iconset .content li svg {
+  max-width: 42px;
+  max-height: 42px;
+  margin: 0 auto 10px auto;
+  display: table;
+  fill: #000;
+}
+
+.baseicons-iconset .content li input {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+  outline: 0 none;
+  padding: 4%;
+  text-align: center;
+  width: 92%;
+  border: none;
+  cursor: text;
+  border-top: 1px solid #e5e5e5;
+}
+
+.baseicons-iconset .content li input:focus {
+  border: 1px dashed #000;
+  margin: 0 -1px;
+  background: #fdffe4;
+}
+
+.baseicons-iconset .content li input:hover {
+  border: 1px dashed #000;
+  margin: 0 -1px;
+}
+
+.baseicons-iconset footer {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  color: #666;
+}
