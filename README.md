@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/alexandesigner/baseicons/tree/master/src/images/brand.jpg" /></p>
+<p align="center"><img src="https://github.com/alexandesigner/baseicons/blob/master/src/images/brand.jpg" /></p>
 
 > This repository is an icon generator in SVG Symbol .. The icons are designed under the [material design guidelines](https://material.io/guidelines/).
 
